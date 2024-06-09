@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générateur de Noms de Licornes Intergalactiques</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <video id="unicornVideo" width="320" height="240" autoplay>
+  <source src="unicorn-animation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+  <audio id="backgroundMusic" loop autoplay>
+  <source src="background-music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="nameSound">
+  <source src="click.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</head>
+<body>
+  <div class="container">
+    <img src="background.jpg" class="background-img" alt="Fond étoilé">
+    <div class="content">
+      <img src="unicorn.webp" class="unicorn-icon" alt="Licorne icône">
+      <h1>Générateur de Noms de Licornes Intergalactiques</h1>
+      <button id="generateBtn">
+        <img src="magic-wand-icon.png" class="magic-wand-icon" alt="Baguette magique icône">
+        Générer un nom de licorne intergalactique
+      </button>
+      <div id="unicornName"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
